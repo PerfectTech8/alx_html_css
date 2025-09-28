@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 1440px;
+    height: 3718px;
+}
 header{
     width: 1103.41px;
     height: 29.46px;
@@ -45,7 +49,7 @@ ul li a:hover {
     width: 167.02px;
     height: 29.46px;
 }
-main{
+/* main{
     background-image: url("/Object.png");
     background-size:cover;
     background-repeat: no-repeat;
@@ -56,8 +60,18 @@ main{
     margin: 0;
     display: flex;
     flex-direction: column;
-}
+} */
 .first-section{
+    /* display: flex;
+    flex-direction: column; */
+     background-image: url("/Object.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 1093px;
+    position: relative;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -99,6 +113,7 @@ main{
 }
 .reg-btn:hover{
     background-color:  #111111;
+    cursor: pointer;
 }
 .pro-section{
     display: flex;
@@ -121,7 +136,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
     text-align: center;
     font-family: "MyCustomFont";
     font-size: 16px;
@@ -130,12 +145,65 @@ main{
     letter-spacing: 0px;
     color:white;
     margin-top: 70px;
+    width: 1009px;
+    height: 237px;
 
 }
+/* .pro-child-container{
+    width: 150px;
+    height: 237px;
+} */
 .clip-img{
     clip-path: circle(50% at 50% 50%);
 }
 .second-section{
-    margin-top: 150px;
+    width: 1440px;
+    height: 392px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #C271FF;
+
 }
+.second-section-img{
+    width: 160px;
+    height: 160px;
+}
+.second-section-writings{
+    width: 730px;
+    height: 158px;
+    align-items: center;
+    justify-content: center;
+    /* font-family: "MyCustomFont"; */
+    text-align: left;
+    color: white;
+}
+.second-section-h3{
+    margin-top: 20px;
+    font-family: "MyCustomFont";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+}
+.second-section-p{
+     font-family: "MyCustomFont";
+    font-size: 22px;
+    font-style: italic;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+
+}
+.second-section-quote{
+     font-family: "MyCustomFont";
+    font-size: 22px;
+    font-weight: reular;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+
+}
+
+
 
