@@ -452,6 +452,37 @@ ul li a:hover {
     padding-bottom: 20px;
 }
 .last-section{
-    margin-top: 100px;
+    width: 1440px;
+    height: 249px;
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    margin-top: 80px;
 }
+.socials{
+    color: white;
+}
+.last-p{
+    color: rgba(255, 255, 255, 0.521);
+}
+.logo-social{
+    display: flex;
+    flex-direction: row;
+    gap: 920px;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+.last-p{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "MyCustomFont";
+    font-weight: regular;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
 
