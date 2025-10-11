@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "myCustomFont";
+    src: url("font/SourceSansPro-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "myCustomFont";
+    src: url("font/SourceSansPro-Light.otf");
+    font-weight:300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "myCustomFont";
+    src: url("font/SourceSansPro-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "myCustomFont";
+    src: url("font/SourceSansPro-Semibold.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.first-div{
+    background-image: url("ALX-Headphone/headphones_hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.first-div{
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap:36.5rem;
+    /* justify-content: space-between; */
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    list-style: none;   
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.2rem;
+    font-family: "mycustomFont";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+nav ul li a:hover{
+    color:#FF6565;
+}
+nav ul li a:active{
+    color:#FF6565;
+}
+
+.logo-img{
+    height: 32px;
+    width: 161px;
+}
+.for-logo{
+    padding-left: 12.5rem;
+}
+
+.hero-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+.hero-first-p{
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: auto;
+    letter-spacing: 0;
+    color: white;
+}
+.hero-second-p{
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    line-height: auto;
+    letter-spacing: 0;
+    color: white;
+}
+.hero-third-p{
+    font-family: "myCustomFont";
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0;
+    color: white;
+    margin-top: 2.9rem;
+}
+
+button{
+    background-color: #FF6565;
+    color:white;
+    width: 10.13rem;
+    height: 2.75rem;
+    border-radius: 20px;
+    border: none;
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-size: 0.88rem;
+    text-align: center;
+}
+.hero-btn{
+    margin-top: 2.3rem;
+}
+button:hover{
+    opacity: 0.9;
+}
+
+/*second section*/
+
+.what-we-do{
+    min-height: 100vh;
+}
+.what-we-do-1st-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+.what-we-do-2nd-div{
+    font-family: "myCustomFont";
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0;
+    color: #071629;
+    margin-top: 1.5rem;
+
+}
+.what-we-do-1st-text{
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0;
+    color: #071629;
+    /* margin-top: 3rem; */
+
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5.5rem;
+}
+
+.sound-div, .card-div, .music-div, .hearing-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sound-1st-p, .card-1st-p, .music-1st-p, .hearing-1st-p{
+    margin-top: 2rem;
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-style: normal;
+    color: #071629;
+}
+
+.sound-2nd-p, .card-2nd-p, .music-2nd-p, .hearing-2nd-p{
+    margin-top: 2rem;
+    font-family: "myCustomFont";
+    font-weight: 400;
+    font-style: normal;
+    color: #071629;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0;
+    font-size: 1rem;
+
+}
+i{
+    font-size: 8rem;
+    color:#FF6565;
+
+}
+
+/* result section */
+
+.result-section{
+    background-image: url("ALX-Headphone/headphones_hero_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.result-section{
+    min-height: 100vh;
+}
+
+.poligons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    gap:4rem;
+}
+.main-result-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.poligon-img{
+    width:190px;
+    height: 190px;
+    display: block;
+}
+.result-2nd-p{
+    padding-top: 2rem;
+    font-family: "myCustomFont";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.result-p{
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-style: normal;
+    /* text-align: center; */
+    /* line-height: 2; */
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+.poligon-1, .poligon-2, .poligon-3, .poligon-4{
+    position: relative;
+    display: inline-block;
+}
+.result-span-1{
+    position:absolute;
+    top:20%;
+    left:22%;
+    font-family: "myCustomFont";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.91rem;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: center;
+}
+.result-span-2{
+    position: absolute;
+    top:55%;
+    left:20%;
+    font-family: "myCustomFont";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.85rem;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: center;
+
+}
+
+
+
+
